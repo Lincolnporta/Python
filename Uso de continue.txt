@@ -1,0 +1,6 @@
+texto = " A inserção de comentários no código do progrma é uma prática normal. em função disso, toda linguagem de programação tem alguma maneira de permitir que comentários sejam inseridos nos programas. o objetivo é adicionar descrições em partes do código, seja para documentá-lo ou para adicionar uma descrição do algoritimo implementado"
+for i, c in enumerate(texto):
+  if c == 'a' or 'o':
+    print(f"Vogal '{c}' encontrada, na posição {i}" )
+  else:
+    continue
