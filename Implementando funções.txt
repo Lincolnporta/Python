@@ -1,0 +1,9 @@
+a = 2
+b = 1
+
+equacao = input("Digite a fómula geral da equação linear (a * x + b): ")
+print(f"/Na entrada do usuário {equacao} é do tipo {type(equacao)}")
+
+for x in range(5):
+  y = eval(equacao)
+  print(f"/n Resultado da equação para x = {x} é {y}")
