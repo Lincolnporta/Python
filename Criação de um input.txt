@@ -1,0 +1,11 @@
+nome = input("Digite um nome: ")
+
+print("Olá %s, bem vindo a disciplina de progrmação. Parabéns pelo seu primeiro Hello Word" % (nome))
+
+# formato segundo a linguagem do tipo C
+
+nome = input("Digite um nome: ")
+
+print(f"Olá {nome}, bem vindo a disciplina de progrmação. Parabéns pelo seu primeiro Hello Word");
+
+# formato recomendado pela galera do python

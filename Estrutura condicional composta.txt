@@ -1,0 +1,12 @@
+# Estrutura condicional simples:
+a = 10
+b = 5
+
+if a < b:
+  print("A é menor do que B")
+  r = a + b 
+  print(f"O resultado de A + B é {r}")
+else:
+  print("A é maior do que B")
+  r = a + b 
+  print(f"O resultado de A + B é {r}")
